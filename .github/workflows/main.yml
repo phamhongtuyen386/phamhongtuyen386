@@ -1,0 +1,19 @@
+- tên: Thiết lập .NET Core SDK
+  sử dụng: hành động/thiết lập-dotnet@v3.2.0
+  với:
+    # Phiên bản SDK tùy chọn để sử dụng. Nếu không được cung cấp, sẽ cài bản global.json khi có. Ví dụ: 2.2.104, 3.1, 3.1.x, 3.x, 6.0.2xx
+    phiên bản dotnet: # tùy chọn
+    # Chất lượng tùy chọn của bản dựng. Các giá trị có thể là: hàng ngày, đã ký, xác thực, xem trước, ga.
+    dotnet-chất lượng: # tùy chọn
+    # Vị trí global.json tùy chọn, nếu global.json của bạn không nằm trong thư mục gốc của repo.
+    tệp toàn cầu-json: # tùy chọn
+    # Nguồn gói tùy chọn để thiết lập xác thực. Sẽ tham khảo bất kỳ NuGet.config hiện có nào trong thư mục gốc của repo và cung cấp NuGet.config tạm thời bằng cách sử dụng biến môi trường NUGET_AUTH_TOKEN làm ClearTextPassword
+    url nguồn: # tùy chọn
+    # CHỦ SỞ HỮU tùy chọn để sử dụng các gói từ các tổ chức/người dùng Cơ quan đăng ký gói GitHub không phải là chủ sở hữu của kho lưu trữ hiện tại. Chỉ được sử dụng nếu URL GPR cũng được cung cấp trong url nguồn
+    chủ sở hữu: # tùy chọn
+    # Vị trí NuGet.config tùy chọn, nếu NuGet.config của bạn không nằm trong thư mục gốc của repo.
+    tệp cấu hình: # tùy chọn
+    # Đầu vào tùy chọn để bật bộ nhớ đệm của thư mục gói toàn cầu NuGet
+    bộ đệm: # tùy chọn
+    # Được sử dụng để chỉ định đường dẫn đến tệp phụ thuộc: packages.lock.json. Hỗ trợ ký tự đại diện hoặc danh sách tên tệp để lưu vào bộ đệm nhiều phụ thuộc.
+    đường dẫn phụ thuộc vào bộ đệm: # tùy chọn
